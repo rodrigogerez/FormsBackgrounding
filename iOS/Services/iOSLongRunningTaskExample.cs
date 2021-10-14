@@ -14,6 +14,7 @@ namespace FormsBackgrounding.iOS
 
 		public async Task Start ()
 		{
+			Console.WriteLine("TASK STARTED ON iOS.");
 			_cts = new CancellationTokenSource ();
 
 			_taskId = UIApplication.SharedApplication.BeginBackgroundTask ("LongRunningTask", OnExpiration);
@@ -27,6 +28,7 @@ namespace FormsBackgrounding.iOS
 			} finally {
 				if (_cts.IsCancellationRequested) {
 					var message = new CancelledMessage();
+					Console.WriteLine("TASK CANCELLED ON iOS.");
 					Device.BeginInvokeOnMainThread (
 						() => MessagingCenter.Send(message, "CancelledMessage")
 					);

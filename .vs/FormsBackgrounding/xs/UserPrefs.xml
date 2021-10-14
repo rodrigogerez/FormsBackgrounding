@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{DC639DD0-57F2-4A1D-B37A-7546B296F008}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Info.plist">
+    <Files>
+      <File FileName="Core/LongRunningPage.xaml.cs" Line="31" Column="12" />
+      <File FileName="Core/LongRunningPage.xaml" Line="9" Column="52" />
+      <File FileName="iOS/AppDelegate.cs" Line="26" Column="38" />
+      <File FileName="iOS/Services/iOSLongRunningTaskExample.cs" Line="33" Column="60" />
+      <File FileName="iOS/Info.plist" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FormsBackgrounding" expanded="True">
+            <Node name="FormsBackgrounding" expanded="True">
+              <Node name="BackgroundPage.xaml" expanded="True" />
+              <Node name="DownloadPage.xaml" expanded="True" />
+              <Node name="LongRunningPage.xaml" expanded="True" />
+            </Node>
+            <Node name="FormsBackgrounding.iOS" expanded="True">
+              <Node name="Info.plist" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.FormsBackgrounding.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C3C3E90E-364E-4CB3-93BB-8538D37D62DD" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -6,7 +6,7 @@
 	Title="Long Running">
 
 	<ContentPage.Padding>
-		<OnPlatform x:TypeArguments="Thickness" iOS="5, 20, 5, 5" Android="5, 20, 5, 5" />
+		<OnPlatform x:TypeArguments="Thickness" iOS="5, 40, 5, 5" Android="5, 20, 5, 5" />
 	</ContentPage.Padding>
 
 	<ContentPage.Content>
