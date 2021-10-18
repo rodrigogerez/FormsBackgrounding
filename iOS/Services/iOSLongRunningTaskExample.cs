@@ -24,7 +24,7 @@ namespace FormsBackgrounding.iOS
 				//INVOKE THE SHARED CODE
 				//var counter = new TaskCounter();
 				//await counter.RunCounter(_cts.Token);
-				await Task.Delay(5000);
+				await Task.Delay(3000);
 				var networkService = new NetworkService();
 				for(var i = 0; i<100; i++)
                 {
@@ -34,7 +34,8 @@ namespace FormsBackgrounding.iOS
 					Console.WriteLine(result);
 					await Task.Delay(2000);
 				}
-			} catch (OperationCanceledException) {
+			} catch (Exception e) {
+				Console.WriteLine(e.Message);
 			} finally {
 				if (_cts.IsCancellationRequested) {
 					var message = new CancelledMessage();
