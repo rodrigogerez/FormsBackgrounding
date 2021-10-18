@@ -2,6 +2,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using FormsBackgrounding.Messages;
+using FormsBackgrounding.Services;
 using UIKit;
 using Xamarin.Forms;
 
@@ -21,9 +22,18 @@ namespace FormsBackgrounding.iOS
 
 			try {
 				//INVOKE THE SHARED CODE
-				var counter = new TaskCounter();
-				await counter.RunCounter(_cts.Token);
+				//var counter = new TaskCounter();
+				//await counter.RunCounter(_cts.Token);
+				await Task.Delay(5000);
+				var networkService = new NetworkService();
+				for(var i = 0; i<100; i++)
+                {
+					networkService.counter++;
+					var result = await networkService.GetInfoFromAPI();
 
+					Console.WriteLine(result);
+					await Task.Delay(2000);
+				}
 			} catch (OperationCanceledException) {
 			} finally {
 				if (_cts.IsCancellationRequested) {

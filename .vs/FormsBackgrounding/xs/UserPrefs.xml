@@ -1,23 +1,29 @@
 ﻿<Properties StartupConfiguration="{DC639DD0-57F2-4A1D-B37A-7546B296F008}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Info.plist">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Core/TaskCounter.cs">
     <Files>
-      <File FileName="Core/LongRunningPage.xaml.cs" Line="31" Column="12" />
-      <File FileName="Core/LongRunningPage.xaml" Line="9" Column="52" />
-      <File FileName="iOS/AppDelegate.cs" Line="26" Column="38" />
-      <File FileName="iOS/Services/iOSLongRunningTaskExample.cs" Line="33" Column="60" />
-      <File FileName="iOS/Info.plist" />
+      <File FileName="Core/LongRunningPage.xaml.cs" Line="23" Column="26" />
+      <File FileName="Core/LongRunningPage.xaml" />
+      <File FileName="iOS/AppDelegate.cs" />
+      <File FileName="iOS/Services/iOSLongRunningTaskExample.cs" Line="29" Column="25" />
+      <File FileName="Core/Services/NetworkService.cs" Line="16" Column="1" />
+      <File FileName="Core/DownloadPage.xaml.cs" />
+      <File FileName="iOS/Services/Downloader.cs" />
+      <File FileName="Core/TaskCounter.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FormsBackgrounding" expanded="True">
             <Node name="FormsBackgrounding" expanded="True">
+              <Node name="Messages" expanded="True" />
+              <Node name="Services" expanded="True" />
               <Node name="BackgroundPage.xaml" expanded="True" />
               <Node name="DownloadPage.xaml" expanded="True" />
               <Node name="LongRunningPage.xaml" expanded="True" />
+              <Node name="TaskCounter.cs" selected="True" />
             </Node>
             <Node name="FormsBackgrounding.iOS" expanded="True">
-              <Node name="Info.plist" selected="True" />
+              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -28,7 +34,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/rodrigogerez/Projects/XamarinFormsBackgrounding/iOS/Services/iOSLongRunningTaskExample.cs" relfile="iOS/Services/iOSLongRunningTaskExample.cs" line="28" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
