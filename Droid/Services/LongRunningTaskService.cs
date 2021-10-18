@@ -5,6 +5,8 @@ using Android.OS;
 using System.Threading;
 using Xamarin.Forms;
 using FormsBackgrounding.Messages;
+using FormsBackgrounding.Services;
+using System;
 
 namespace FormsBackgrounding.Droid
 {
@@ -22,13 +24,24 @@ namespace FormsBackgrounding.Droid
 		{
 			_cts = new CancellationTokenSource ();
 
-			Task.Run (() => {
+			Task.Run (async() => {
 				try {
 					//INVOKE THE SHARED CODE
-					var counter = new TaskCounter();
-					counter.RunCounter(_cts.Token).Wait();
+					//var counter = new TaskCounter();
+					//counter.RunCounter(_cts.Token).Wait();
+					await Task.Delay(3000);
+					var networkService = new NetworkService();
+					for (var i = 0; i < 100; i++)
+					{
+						networkService.counter++;
+						var result = await networkService.GetInfoFromAPI(_cts.Token);
+
+						Console.WriteLine(result);
+						await Task.Delay(2000);
+					}
 				}
-				catch (OperationCanceledException) {
+				catch (Exception e) {
+					Console.WriteLine(e.Message);
 				}
 				finally {
 					if (_cts.IsCancellationRequested) {

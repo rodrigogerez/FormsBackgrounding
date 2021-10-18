@@ -50,7 +50,7 @@
         "System.Threading.Tasks": "[4.3.0, )",
         "System.Xml.ReaderWriter": "[4.3.1, )",
         "System.Xml.XDocument": "[4.3.0, )",
-        "Xamarin.Forms": "[5.0.0.2125, )"
+        "Xamarin.Forms": "[5.0.0.2196, )"
       },
       "frameworks": {
         "netstandard1.5": {}

@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{DC639DD0-57F2-4A1D-B37A-7546B296F008}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/TaskCounter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Services/LongRunningTaskService.cs">
     <Files>
       <File FileName="Core/LongRunningPage.xaml.cs" Line="23" Column="26" />
       <File FileName="Core/LongRunningPage.xaml" />
       <File FileName="iOS/AppDelegate.cs" />
-      <File FileName="iOS/Services/iOSLongRunningTaskExample.cs" Line="29" Column="25" />
-      <File FileName="Core/Services/NetworkService.cs" Line="16" Column="1" />
+      <File FileName="iOS/Services/iOSLongRunningTaskExample.cs" />
+      <File FileName="Core/Services/NetworkService.cs" />
       <File FileName="Core/DownloadPage.xaml.cs" />
       <File FileName="iOS/Services/Downloader.cs" />
-      <File FileName="Core/TaskCounter.cs" Line="1" Column="1" />
+      <File FileName="Core/TaskCounter.cs" />
+      <File FileName="Droid/Services/LongRunningTaskService.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +21,9 @@
               <Node name="BackgroundPage.xaml" expanded="True" />
               <Node name="DownloadPage.xaml" expanded="True" />
               <Node name="LongRunningPage.xaml" expanded="True" />
-              <Node name="TaskCounter.cs" selected="True" />
+            </Node>
+            <Node name="FormsBackgrounding.Droid" expanded="True" selected="True">
+              <Node name="Services" expanded="True" />
             </Node>
             <Node name="FormsBackgrounding.iOS" expanded="True">
               <Node name="Services" expanded="True" />
@@ -30,13 +33,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.FormsBackgrounding.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C3C3E90E-364E-4CB3-93BB-8538D37D62DD" />
+  <MonoDevelop.Ide.ItemProperties.FormsBackgrounding.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AE65BFE3-F98A-423A-9AE5-FBD30714C3F7" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/rodrigogerez/Projects/XamarinFormsBackgrounding/iOS/Services/iOSLongRunningTaskExample.cs" relfile="iOS/Services/iOSLongRunningTaskExample.cs" line="28" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
