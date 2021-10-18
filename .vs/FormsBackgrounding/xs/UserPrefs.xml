@@ -1,5 +1,5 @@
-﻿<Properties StartupConfiguration="{DC639DD0-57F2-4A1D-B37A-7546B296F008}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Services/LongRunningTaskService.cs">
+﻿<Properties StartupConfiguration="{2CBA994D-4AB3-4C0C-B84B-6A1295F6305F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Properties/AndroidManifest.xml">
     <Files>
       <File FileName="Core/LongRunningPage.xaml.cs" Line="23" Column="26" />
       <File FileName="Core/LongRunningPage.xaml" />
@@ -9,7 +9,9 @@
       <File FileName="Core/DownloadPage.xaml.cs" />
       <File FileName="iOS/Services/Downloader.cs" />
       <File FileName="Core/TaskCounter.cs" />
-      <File FileName="Droid/Services/LongRunningTaskService.cs" Line="1" Column="1" />
+      <File FileName="Droid/Services/LongRunningTaskService.cs" />
+      <File FileName="Droid/Properties/AndroidManifest.xml" />
+      <File FileName="../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,7 +24,11 @@
               <Node name="DownloadPage.xaml" expanded="True" />
               <Node name="LongRunningPage.xaml" expanded="True" />
             </Node>
-            <Node name="FormsBackgrounding.Droid" expanded="True" selected="True">
+            <Node name="FormsBackgrounding.Droid" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="AndroidManifest.xml" selected="True" />
+              </Node>
               <Node name="Services" expanded="True" />
             </Node>
             <Node name="FormsBackgrounding.iOS" expanded="True">
@@ -35,6 +41,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.FormsBackgrounding.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AE65BFE3-F98A-423A-9AE5-FBD30714C3F7" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FormsBackgrounding.Droid PreferredExecutionTarget="Android.pixel_c_r_11_0_-_api_30" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
