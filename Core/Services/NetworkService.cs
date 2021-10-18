@@ -1,4 +1,5 @@
 ﻿using System.Net.Http;
+using System.Threading;
 using System.Threading.Tasks;
 using FormsBackgrounding.Messages;
 using Newtonsoft.Json;
@@ -11,10 +12,10 @@ namespace FormsBackgrounding.Services
         static readonly HttpClient client = new HttpClient();
         public int counter = 0;
 
-        public async Task<string> GetInfoFromAPI()
+        public async Task<string> GetInfoFromAPI(CancellationToken ct)
         {
             HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Get, "https://api.publicapis.org/entries");
-            var result = await client.SendAsync(request);
+            var result = await client.SendAsync(request, ct);
             if (result.IsSuccessStatusCode)
             {
                 var message = new TickedMessage

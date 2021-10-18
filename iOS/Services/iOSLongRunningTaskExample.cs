@@ -29,7 +29,7 @@ namespace FormsBackgrounding.iOS
 				for(var i = 0; i<100; i++)
                 {
 					networkService.counter++;
-					var result = await networkService.GetInfoFromAPI();
+					var result = await networkService.GetInfoFromAPI(_cts.Token);
 
 					Console.WriteLine(result);
 					await Task.Delay(2000);
